@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+:root {
+    --main-bg-color: blue;
+}
+
+.flex-all-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 10px;
+    padding: 0 23px;
+}
+
+nav ul li a:hover {
+    color: brown;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    height: 40px;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 10vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    display: flex;
+    padding: 0 23px;
+    margin-left: 5%;
+    margin-top: 1em;
+}
+
+.logo img {
+    width: 90px;
+}
+
+nav {
+    display: flex;
+}
+
+.container {
+    min-height: calc(85vh);
+}
+
+.search {
+    height: 20px;
+    width: 500px;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+    margin-left: 15%;
+}
+
+.btn {
+    height: 20px;
+    width: 50px;
+    color: white;
+    background-color: rgb(60, 18, 139);
+    border-radius: 10%;
+    border: 5px white;
+}
+
+.btn:hover {
+    color: rgb(22, 9, 35);
+    font-size: 20px;
+    font-style: italic;
+}
+
+.advertisements {
+    margin-left: 23%;
+    padding: 1px;
+}
+
+.offer {
+    color: rgb(116, 187, 9);
+    font-size: 25px;
+}
+
+.card {
+    margin: 12px;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+h2 {
+    padding: 1em;
+    margin-left: 7%;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    background-color: blanchedalmond;
+}
+
+.card-item:hover {
+    font-size: large;
+    border-image: round;
+}
+
+h2:hover {
+    font-size: 35px;
+    font: bold, italic, ;
+}
+
+.ikg:hover {
+    height: 200px;
+    width: 200px;
+    border: 5px dashed rgb(144, 117, 64);
+    border-radius: 20px;
+}
+
+.ikg {
+    border-radius: 10px solid;
+}
+
+.heading {
+    margin-left: 25%;
+    padding: 1em;
+    font-size: 40px;
+    border-radius: 5px dashed rgb(95, 232, 95);
+}
+
+.heading3 {
+    margin-left: 25%;
+    padding: 1em;
+    font-size: 30px;
+    border-radius: 5px dashed rgb(12, 135, 169);
+}
