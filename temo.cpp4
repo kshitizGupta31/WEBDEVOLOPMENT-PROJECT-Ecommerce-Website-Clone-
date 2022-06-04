@@ -1,0 +1,14 @@
+#include <iostream>
+  using namespace std;
+
+    int main()
+    {
+        cout<<"there is a code for some mathematical functions"<<end
+        cout<<"following type of operators in c++"<<endl
+        //the operators is 
+          
+        
+        
+        
+        return 0;
+    }

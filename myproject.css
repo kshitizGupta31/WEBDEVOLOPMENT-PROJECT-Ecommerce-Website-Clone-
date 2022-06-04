@@ -1,0 +1,27 @@
+* {
+    margin-top: 0;
+    padding: 0;
+}
+
+H4 {
+    background-color: FFA1A1;
+}
+
+#green {
+    background-color: FFA1A1;
+    color: rgb(81, 31, 129);
+}
+
+body {
+    background-color: rgb(242, 0, 255);
+}
+
+#about {
+    background-color: rgb(215, 192, 44);
+    ;
+}
+
+#profile {
+    width: 50;
+    border-radius: 50%;
+}
